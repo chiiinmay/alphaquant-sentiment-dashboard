@@ -1,0 +1,3175 @@
+{
+  "overall": {
+    "total_pnl": 10254486.95,
+    "total_trades": 211218,
+    "total_volume": 1191098773.6,
+    "win_rate": 41.12,
+    "unique_accounts": 32,
+    "unique_coins": 246,
+    "profitable": 86863,
+    "losing": 17539
+  },
+  "sentiment_pnl": {
+    "Extreme Fear": {
+      "total_pnl": 739110.25,
+      "avg_pnl": 34.5379,
+      "trade_count": 21400,
+      "win_rate": 37.06,
+      "total_volume": 114484261.44
+    },
+    "Fear": {
+      "total_pnl": 3357155.44,
+      "avg_pnl": 54.2904,
+      "trade_count": 61837,
+      "win_rate": 42.08,
+      "total_volume": 483324789.79
+    },
+    "Neutral": {
+      "total_pnl": 1292920.68,
+      "avg_pnl": 34.3077,
+      "trade_count": 37686,
+      "win_rate": 39.7,
+      "total_volume": 180242063.08
+    },
+    "Greed": {
+      "total_pnl": 2150129.27,
+      "avg_pnl": 42.7436,
+      "trade_count": 50303,
+      "win_rate": 38.48,
+      "total_volume": 288582494.72
+    },
+    "Extreme Greed": {
+      "total_pnl": 2715171.31,
+      "avg_pnl": 67.8929,
+      "trade_count": 39992,
+      "win_rate": 46.49,
+      "total_volume": 124465164.57
+    }
+  },
+  "side_by_sentiment": {
+    "Extreme Fear": {
+      "BUY": 10935,
+      "SELL": 10465
+    },
+    "Fear": {
+      "BUY": 30270,
+      "SELL": 31567
+    },
+    "Neutral": {
+      "BUY": 18969,
+      "SELL": 18717
+    },
+    "Greed": {
+      "BUY": 24576,
+      "SELL": 25727
+    },
+    "Extreme Greed": {
+      "BUY": 17940,
+      "SELL": 22052
+    }
+  },
+  "coin_pnl": {
+    "@107": 2783912.92,
+    "HYPE": 1948484.6,
+    "SOL": 1639555.93,
+    "ETH": 1319978.84,
+    "BTC": 868044.73,
+    "MELANIA": 390351.07,
+    "ENA": 217329.5,
+    "SUI": 199268.83,
+    "ZRO": 183777.78,
+    "DOGE": 147543.16
+  },
+  "coin_volume": {
+    "BTC": 644232116.63,
+    "HYPE": 141990206.05,
+    "SOL": 125074752.06,
+    "ETH": 118280994.07,
+    "@107": 55760858.63,
+    "FARTCOIN": 8311390.4,
+    "SUI": 7781167.59,
+    "TRUMP": 7349346.94,
+    "MELANIA": 7040710.45,
+    "XRP": 5343210.53
+  },
+  "top_traders": [
+    {
+      "account": "0xb123...ed23",
+      "total_pnl": 2143382.6,
+      "trade_count": 14733,
+      "total_volume": 56543565.23,
+      "win_rate": 33.71
+    },
+    {
+      "account": "0x0833...9012",
+      "total_pnl": 1600229.82,
+      "trade_count": 3818,
+      "total_volume": 61697263.97,
+      "win_rate": 35.96
+    },
+    {
+      "account": "0xbaaa...7864",
+      "total_pnl": 940163.81,
+      "trade_count": 21192,
+      "total_volume": 68036340.24,
+      "win_rate": 46.76
+    },
+    {
+      "account": "0x513b...4ff1",
+      "total_pnl": 840422.56,
+      "trade_count": 12236,
+      "total_volume": 420876556.36,
+      "win_rate": 40.12
+    },
+    {
+      "account": "0xbee1...7aab",
+      "total_pnl": 836080.55,
+      "trade_count": 40184,
+      "total_volume": 74107810.44,
+      "win_rate": 42.82
+    },
+    {
+      "account": "0x4acb...b9f4",
+      "total_pnl": 677747.05,
+      "trade_count": 4356,
+      "total_volume": 39572949.25,
+      "win_rate": 48.62
+    },
+    {
+      "account": "0x7274...afbd",
+      "total_pnl": 429355.57,
+      "trade_count": 1590,
+      "total_volume": 11474500.92,
+      "win_rate": 34.59
+    },
+    {
+      "account": "0x430f...7713",
+      "total_pnl": 416541.87,
+      "trade_count": 1237,
+      "total_volume": 2966109.22,
+      "win_rate": 48.42
+    },
+    {
+      "account": "0x75f7...70d4",
+      "total_pnl": 379095.41,
+      "trade_count": 9893,
+      "total_volume": 25729497.24,
+      "win_rate": 81.09
+    },
+    {
+      "account": "0x72c6...92a0",
+      "total_pnl": 360539.51,
+      "trade_count": 1424,
+      "total_volume": 2962475.47,
+      "win_rate": 30.34
+    }
+  ],
+  "time_series": [
+    {
+      "date": "2023-05-01",
+      "pnl": 0.0,
+      "fg": 63.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-05",
+      "pnl": 0.0,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2023-12-14",
+      "pnl": -205.43,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-15",
+      "pnl": -24.63,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-16",
+      "pnl": 0.0,
+      "fg": 67.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-17",
+      "pnl": 304.98,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-18",
+      "pnl": 0.0,
+      "fg": 65.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-19",
+      "pnl": 1000.54,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-20",
+      "pnl": 162.73,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-21",
+      "pnl": 537.21,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-22",
+      "pnl": 141.83,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-23",
+      "pnl": 146.94,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-24",
+      "pnl": 1008.62,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-25",
+      "pnl": -245.08,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-27",
+      "pnl": -704.89,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-28",
+      "pnl": -970.73,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-29",
+      "pnl": 508.92,
+      "fg": 65.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2023-12-30",
+      "pnl": 355.0,
+      "fg": 68.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-01",
+      "pnl": -129.53,
+      "fg": 65.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-02",
+      "pnl": 783.98,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-03",
+      "pnl": 866.02,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-04",
+      "pnl": -67.6,
+      "fg": 68.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-05",
+      "pnl": 164.14,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-06",
+      "pnl": 135.58,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-07",
+      "pnl": -835.68,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-08",
+      "pnl": -269.87,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-09",
+      "pnl": -826.35,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-01-10",
+      "pnl": -1517.09,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-11",
+      "pnl": -164.09,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-01-12",
+      "pnl": -1925.52,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-15",
+      "pnl": 152.85,
+      "fg": 52.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-01-16",
+      "pnl": -2299.17,
+      "fg": 64.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-17",
+      "pnl": 813.27,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-18",
+      "pnl": 68.93,
+      "fg": 63.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-19",
+      "pnl": -385.42,
+      "fg": 51.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-01-20",
+      "pnl": -146.57,
+      "fg": 52.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-01-21",
+      "pnl": 266.58,
+      "fg": 56.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-22",
+      "pnl": 1375.64,
+      "fg": 55.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-23",
+      "pnl": -369.24,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-01-24",
+      "pnl": -2808.35,
+      "fg": 48.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-01-25",
+      "pnl": -3093.63,
+      "fg": 52.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-01-26",
+      "pnl": 90.2,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-01-28",
+      "pnl": -2478.07,
+      "fg": 54.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-01-29",
+      "pnl": 486.56,
+      "fg": 55.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-30",
+      "pnl": -173.65,
+      "fg": 61.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-01-31",
+      "pnl": -799.84,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-01",
+      "pnl": 0.0,
+      "fg": 63.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-02",
+      "pnl": 456.42,
+      "fg": 63.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-03",
+      "pnl": 223.31,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-04",
+      "pnl": 47.62,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-05",
+      "pnl": -33.45,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-06",
+      "pnl": -215.62,
+      "fg": 64.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-07",
+      "pnl": 241.24,
+      "fg": 62.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-08",
+      "pnl": 770.76,
+      "fg": 66.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-11",
+      "pnl": 983.44,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-12",
+      "pnl": 913.88,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-13",
+      "pnl": 559.44,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-02-14",
+      "pnl": 3830.6,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-15",
+      "pnl": 1840.8,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-16",
+      "pnl": 5491.77,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-17",
+      "pnl": 1929.64,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-02-18",
+      "pnl": 477.62,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-19",
+      "pnl": 4317.77,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-02-20",
+      "pnl": 3263.63,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-21",
+      "pnl": 1858.8,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-02-22",
+      "pnl": 3894.11,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-23",
+      "pnl": 1418.55,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-02-25",
+      "pnl": -30.77,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-26",
+      "pnl": 4416.85,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-02-27",
+      "pnl": 888.51,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-02-28",
+      "pnl": 2503.75,
+      "fg": 82.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-02-29",
+      "pnl": 9814.0,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-01",
+      "pnl": 8244.24,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-02",
+      "pnl": 230.9,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-03",
+      "pnl": 8361.09,
+      "fg": 83.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-04",
+      "pnl": 27799.78,
+      "fg": 82.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-05",
+      "pnl": 19791.03,
+      "fg": 90.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-06",
+      "pnl": 6814.83,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-08",
+      "pnl": 4271.89,
+      "fg": 81.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-09",
+      "pnl": 9949.5,
+      "fg": 84.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-10",
+      "pnl": 2482.93,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-11",
+      "pnl": 3588.18,
+      "fg": 82.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-12",
+      "pnl": 3039.17,
+      "fg": 81.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-13",
+      "pnl": 0.0,
+      "fg": 81.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-14",
+      "pnl": 3465.87,
+      "fg": 88.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-15",
+      "pnl": 6236.51,
+      "fg": 83.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-16",
+      "pnl": 228.58,
+      "fg": 81.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-17",
+      "pnl": 503.29,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-18",
+      "pnl": 1456.96,
+      "fg": 77.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-19",
+      "pnl": 668.8,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-20",
+      "pnl": 6423.13,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-03-21",
+      "pnl": 2335.51,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-24",
+      "pnl": 1297.02,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-03-25",
+      "pnl": 1302.92,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-26",
+      "pnl": 3215.91,
+      "fg": 81.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-27",
+      "pnl": 150.41,
+      "fg": 83.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-28",
+      "pnl": 227.85,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-29",
+      "pnl": 883.1,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-30",
+      "pnl": 1100.58,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-03-31",
+      "pnl": 912.79,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-01",
+      "pnl": 2507.96,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-02",
+      "pnl": 883.76,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-03",
+      "pnl": 126.79,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-04",
+      "pnl": 0.0,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-05",
+      "pnl": 10706.48,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-06",
+      "pnl": 236.34,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-07",
+      "pnl": 0.0,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-08",
+      "pnl": 1218.43,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-09",
+      "pnl": 0.0,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-10",
+      "pnl": 5207.44,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-11",
+      "pnl": 389.74,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-12",
+      "pnl": -592.65,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-04-13",
+      "pnl": 6621.45,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-14",
+      "pnl": -36104.01,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-15",
+      "pnl": 3774.09,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-16",
+      "pnl": 2467.7,
+      "fg": 65.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-17",
+      "pnl": 2441.47,
+      "fg": 67.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-19",
+      "pnl": 1946.45,
+      "fg": 66.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-20",
+      "pnl": 0.0,
+      "fg": 66.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-22",
+      "pnl": 0.0,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-23",
+      "pnl": 1119.54,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-24",
+      "pnl": 279.19,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-25",
+      "pnl": 0.0,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-26",
+      "pnl": 0.0,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-27",
+      "pnl": 4281.49,
+      "fg": 67.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-28",
+      "pnl": 0.0,
+      "fg": 65.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-29",
+      "pnl": 526.93,
+      "fg": 67.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-04-30",
+      "pnl": 0.0,
+      "fg": 67.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-01",
+      "pnl": 0.0,
+      "fg": 54.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-05-03",
+      "pnl": 5306.02,
+      "fg": 48.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-05-04",
+      "pnl": 0.0,
+      "fg": 67.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-05",
+      "pnl": 0.92,
+      "fg": 69.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-06",
+      "pnl": 968.59,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-07",
+      "pnl": 883.54,
+      "fg": 68.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-08",
+      "pnl": 1.57,
+      "fg": 64.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-09",
+      "pnl": 1147.6,
+      "fg": 55.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-10",
+      "pnl": 2101.74,
+      "fg": 66.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-11",
+      "pnl": 251.6,
+      "fg": 53.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-05-12",
+      "pnl": 0.0,
+      "fg": 56.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-13",
+      "pnl": 2136.85,
+      "fg": 57.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-14",
+      "pnl": 1150.52,
+      "fg": 66.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-15",
+      "pnl": 948.97,
+      "fg": 64.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-16",
+      "pnl": 214.59,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-18",
+      "pnl": 3522.39,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-19",
+      "pnl": 0.0,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-20",
+      "pnl": -74.82,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-21",
+      "pnl": 7289.4,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-05-22",
+      "pnl": 0.0,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-05-23",
+      "pnl": 413.35,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-05-24",
+      "pnl": 821.95,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-25",
+      "pnl": 14.13,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-05-26",
+      "pnl": 778.68,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-05-27",
+      "pnl": 1129.36,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-29",
+      "pnl": 277.79,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-30",
+      "pnl": 20.95,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-05-31",
+      "pnl": 25.36,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-01",
+      "pnl": 91.51,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-02",
+      "pnl": 192.91,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-03",
+      "pnl": 562.81,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-04",
+      "pnl": 52.21,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-05",
+      "pnl": 56.06,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-06-06",
+      "pnl": 274.17,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-06-07",
+      "pnl": 8902.47,
+      "fg": 77.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-06-08",
+      "pnl": 129.14,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-09",
+      "pnl": 0.0,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-06-10",
+      "pnl": 31.27,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-11",
+      "pnl": 4320.63,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-12",
+      "pnl": -21886.53,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-13",
+      "pnl": 6632.76,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-14",
+      "pnl": 10258.59,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-15",
+      "pnl": 3369.96,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-16",
+      "pnl": 0.0,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-17",
+      "pnl": 10599.5,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-18",
+      "pnl": 282.58,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-19",
+      "pnl": 4887.66,
+      "fg": 64.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-20",
+      "pnl": 57478.46,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-21",
+      "pnl": 773.56,
+      "fg": 63.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-22",
+      "pnl": 756.88,
+      "fg": 53.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-06-23",
+      "pnl": 0.0,
+      "fg": 55.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-06-24",
+      "pnl": 0.0,
+      "fg": 51.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-06-25",
+      "pnl": 4869.35,
+      "fg": 30.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-06-26",
+      "pnl": 4197.73,
+      "fg": 46.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-06-27",
+      "pnl": 0.0,
+      "fg": 40.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-06-29",
+      "pnl": 6150.33,
+      "fg": 30.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-06-30",
+      "pnl": 0.0,
+      "fg": 47.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-07-01",
+      "pnl": 5065.84,
+      "fg": 53.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-07-02",
+      "pnl": 2421.25,
+      "fg": 51.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-07-03",
+      "pnl": 1118.39,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-07-04",
+      "pnl": 0.0,
+      "fg": 44.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-05",
+      "pnl": 0.0,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-06",
+      "pnl": 108.87,
+      "fg": 26.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-07",
+      "pnl": 61.43,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-08",
+      "pnl": 0.0,
+      "fg": 28.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-09",
+      "pnl": 648.98,
+      "fg": 27.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-10",
+      "pnl": 11977.73,
+      "fg": 28.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-11",
+      "pnl": 1876.81,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-12",
+      "pnl": 1412.31,
+      "fg": 25.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-13",
+      "pnl": 2913.62,
+      "fg": 25.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-14",
+      "pnl": 0.0,
+      "fg": 33.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-07-15",
+      "pnl": -1.0,
+      "fg": 52.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-07-16",
+      "pnl": 0.0,
+      "fg": 65.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-17",
+      "pnl": 1859.27,
+      "fg": 69.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-18",
+      "pnl": 3803.88,
+      "fg": 61.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-19",
+      "pnl": 2155.89,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-20",
+      "pnl": 2299.17,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-21",
+      "pnl": -2960.72,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-22",
+      "pnl": 1517.12,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-23",
+      "pnl": 89890.3,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-24",
+      "pnl": 625.56,
+      "fg": 69.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-25",
+      "pnl": 916.74,
+      "fg": 68.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-26",
+      "pnl": 2766.51,
+      "fg": 68.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-27",
+      "pnl": 6400.62,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-28",
+      "pnl": 587.3,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-29",
+      "pnl": 330.8,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-30",
+      "pnl": 0.0,
+      "fg": 67.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-07-31",
+      "pnl": 765.69,
+      "fg": 61.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-08-01",
+      "pnl": 167.08,
+      "fg": 52.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-08-02",
+      "pnl": 782.37,
+      "fg": 57.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-08-03",
+      "pnl": 464.19,
+      "fg": 37.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-04",
+      "pnl": -122672.0,
+      "fg": 34.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-05",
+      "pnl": -13013.67,
+      "fg": 26.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-06",
+      "pnl": 267.32,
+      "fg": 17.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2024-08-07",
+      "pnl": 188.79,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-08",
+      "pnl": -40.71,
+      "fg": 20.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2024-08-09",
+      "pnl": 18082.07,
+      "fg": 48.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-08-10",
+      "pnl": 0.0,
+      "fg": 40.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-11",
+      "pnl": 847.78,
+      "fg": 39.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-12",
+      "pnl": 858.67,
+      "fg": 25.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-13",
+      "pnl": 212.08,
+      "fg": 31.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-14",
+      "pnl": 2168.9,
+      "fg": 30.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-15",
+      "pnl": 0.0,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-16",
+      "pnl": 825.23,
+      "fg": 27.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-17",
+      "pnl": -288.28,
+      "fg": 25.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-18",
+      "pnl": 307.2,
+      "fg": 31.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-19",
+      "pnl": 339.7,
+      "fg": 28.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-20",
+      "pnl": 192.6,
+      "fg": 30.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-21",
+      "pnl": 656.2,
+      "fg": 26.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-23",
+      "pnl": 1005.31,
+      "fg": 34.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-24",
+      "pnl": 0.0,
+      "fg": 56.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-08-25",
+      "pnl": 0.0,
+      "fg": 54.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-08-26",
+      "pnl": 231.24,
+      "fg": 55.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-08-27",
+      "pnl": 0.0,
+      "fg": 48.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-08-28",
+      "pnl": 1333.36,
+      "fg": 30.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-29",
+      "pnl": 0.0,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-30",
+      "pnl": 256.46,
+      "fg": 34.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-08-31",
+      "pnl": 10.88,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-09-01",
+      "pnl": 137.43,
+      "fg": 26.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-09-02",
+      "pnl": 0.0,
+      "fg": 26.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-09-04",
+      "pnl": 1065.79,
+      "fg": 27.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-09-05",
+      "pnl": 0.0,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-09-06",
+      "pnl": -1104.86,
+      "fg": 22.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2024-09-08",
+      "pnl": 0.0,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-09-09",
+      "pnl": 0.0,
+      "fg": 26.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-09-10",
+      "pnl": -219.73,
+      "fg": 33.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-09-11",
+      "pnl": 0.0,
+      "fg": 37.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-09-14",
+      "pnl": 0.0,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-09-18",
+      "pnl": -878.68,
+      "fg": 45.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-09-19",
+      "pnl": 0.0,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-09-20",
+      "pnl": 9585.03,
+      "fg": 54.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-09-21",
+      "pnl": 36165.57,
+      "fg": 54.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-09-22",
+      "pnl": 0.0,
+      "fg": 52.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-09-23",
+      "pnl": 334.76,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-09-24",
+      "pnl": 0.0,
+      "fg": 54.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-09-25",
+      "pnl": 0.0,
+      "fg": 59.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-09-26",
+      "pnl": 439.81,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-09-27",
+      "pnl": 0.0,
+      "fg": 61.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-09-28",
+      "pnl": 0.0,
+      "fg": 64.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-09-30",
+      "pnl": 2710.63,
+      "fg": 61.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-01",
+      "pnl": 0.0,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-10-02",
+      "pnl": 0.0,
+      "fg": 42.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-10-03",
+      "pnl": 100.38,
+      "fg": 37.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-10-04",
+      "pnl": 0.0,
+      "fg": 41.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-10-05",
+      "pnl": 5767.16,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-10-06",
+      "pnl": 130.49,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-10-07",
+      "pnl": 0.0,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-10-08",
+      "pnl": 5396.55,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-10-09",
+      "pnl": 396.06,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-10-10",
+      "pnl": 0.0,
+      "fg": 39.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-10-11",
+      "pnl": 8885.33,
+      "fg": 32.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2024-10-12",
+      "pnl": 541.55,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-10-13",
+      "pnl": 0.0,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-10-14",
+      "pnl": 1913.62,
+      "fg": 48.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2024-10-15",
+      "pnl": 1170.23,
+      "fg": 65.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-16",
+      "pnl": 219.48,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-17",
+      "pnl": 36.11,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-18",
+      "pnl": 333.22,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-19",
+      "pnl": 0.0,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-20",
+      "pnl": 389.16,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-21",
+      "pnl": 2464.92,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-22",
+      "pnl": 0.0,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-23",
+      "pnl": -46.49,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-25",
+      "pnl": 13235.86,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-27",
+      "pnl": 666.66,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-28",
+      "pnl": 167.28,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-29",
+      "pnl": 801.17,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-10-30",
+      "pnl": 9.15,
+      "fg": 77.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-10-31",
+      "pnl": 1214.04,
+      "fg": 77.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-01",
+      "pnl": 1040.48,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-02",
+      "pnl": 0.0,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-11-03",
+      "pnl": 0.0,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-11-04",
+      "pnl": 2799.41,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-11-05",
+      "pnl": 678.48,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-11-06",
+      "pnl": 2817.84,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-11-07",
+      "pnl": 4493.35,
+      "fg": 77.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-08",
+      "pnl": -64.41,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-09",
+      "pnl": 102.91,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-10",
+      "pnl": 991.11,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-11",
+      "pnl": 6749.63,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-12",
+      "pnl": 3494.4,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-13",
+      "pnl": 7846.4,
+      "fg": 84.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-14",
+      "pnl": 4563.51,
+      "fg": 88.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-15",
+      "pnl": 4140.74,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-16",
+      "pnl": 2769.52,
+      "fg": 86.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-17",
+      "pnl": 882.98,
+      "fg": 90.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-18",
+      "pnl": 4470.82,
+      "fg": 83.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-19",
+      "pnl": 2958.27,
+      "fg": 90.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-20",
+      "pnl": 4210.09,
+      "fg": 83.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-21",
+      "pnl": 1692.43,
+      "fg": 82.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-22",
+      "pnl": -18105.35,
+      "fg": 94.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-23",
+      "pnl": 2901.53,
+      "fg": 93.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-24",
+      "pnl": 945.55,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-25",
+      "pnl": 5523.74,
+      "fg": 82.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-26",
+      "pnl": 1094.81,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-27",
+      "pnl": -2654.5,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-28",
+      "pnl": -127075.4,
+      "fg": 77.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-29",
+      "pnl": 176844.99,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-11-30",
+      "pnl": 37316.69,
+      "fg": 84.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-01",
+      "pnl": 40886.36,
+      "fg": 81.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-02",
+      "pnl": 18489.6,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-03",
+      "pnl": 23576.54,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-04",
+      "pnl": 292891.82,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-05",
+      "pnl": 71574.12,
+      "fg": 84.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-06",
+      "pnl": -92624.64,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-07",
+      "pnl": 85906.28,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-08",
+      "pnl": 15965.93,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-09",
+      "pnl": 6310.97,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-10",
+      "pnl": 39325.77,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-11",
+      "pnl": 319051.55,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-12",
+      "pnl": 599151.8,
+      "fg": 83.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-13",
+      "pnl": 31935.9,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-14",
+      "pnl": 167801.4,
+      "fg": 83.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-15",
+      "pnl": 97525.32,
+      "fg": 80.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-16",
+      "pnl": 166774.34,
+      "fg": 83.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-17",
+      "pnl": 219591.31,
+      "fg": 87.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-18",
+      "pnl": 13682.99,
+      "fg": 81.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-19",
+      "pnl": 62744.0,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-20",
+      "pnl": 254969.66,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-21",
+      "pnl": 150022.16,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-22",
+      "pnl": 352197.16,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-23",
+      "pnl": -29430.63,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-24",
+      "pnl": 14813.78,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-25",
+      "pnl": 756.66,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-26",
+      "pnl": 60228.64,
+      "fg": 79.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2024-12-27",
+      "pnl": 2672.81,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-28",
+      "pnl": 940.67,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-29",
+      "pnl": 2884.07,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-30",
+      "pnl": 9009.74,
+      "fg": 65.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2024-12-31",
+      "pnl": 5445.01,
+      "fg": 64.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-01",
+      "pnl": -9528.07,
+      "fg": 66.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-02",
+      "pnl": 8716.52,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-03",
+      "pnl": 6028.49,
+      "fg": 74.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-04",
+      "pnl": 2553.54,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-05",
+      "pnl": 3187.72,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-06",
+      "pnl": 6064.19,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-07",
+      "pnl": 16098.23,
+      "fg": 78.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-08",
+      "pnl": 130117.09,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-09",
+      "pnl": 46975.93,
+      "fg": 69.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-10",
+      "pnl": -10116.88,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-01-11",
+      "pnl": 2269.08,
+      "fg": 69.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-12",
+      "pnl": 5742.24,
+      "fg": 62.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-13",
+      "pnl": 9655.43,
+      "fg": 61.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-14",
+      "pnl": 16069.51,
+      "fg": 63.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-15",
+      "pnl": 14819.59,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-16",
+      "pnl": 20807.71,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-17",
+      "pnl": 7006.42,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-18",
+      "pnl": 443.23,
+      "fg": 77.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-19",
+      "pnl": 87923.8,
+      "fg": 77.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-20",
+      "pnl": 87277.24,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-21",
+      "pnl": 11077.84,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-22",
+      "pnl": 20524.41,
+      "fg": 84.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-23",
+      "pnl": 101256.24,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-24",
+      "pnl": 10602.78,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-25",
+      "pnl": -10348.02,
+      "fg": 75.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-01-26",
+      "pnl": 40823.47,
+      "fg": 73.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-27",
+      "pnl": 41331.77,
+      "fg": 71.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-28",
+      "pnl": 17979.61,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-29",
+      "pnl": 23421.01,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-30",
+      "pnl": 23097.47,
+      "fg": 70.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-01-31",
+      "pnl": 35868.3,
+      "fg": 76.0,
+      "sentiment": "Extreme Greed"
+    },
+    {
+      "date": "2025-02-01",
+      "pnl": 32300.21,
+      "fg": 68.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-02-02",
+      "pnl": 162854.76,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-02-03",
+      "pnl": 348871.33,
+      "fg": 44.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-02-04",
+      "pnl": 416876.89,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-02-05",
+      "pnl": 56706.24,
+      "fg": 54.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-06",
+      "pnl": 33803.8,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-07",
+      "pnl": 22450.0,
+      "fg": 44.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-02-08",
+      "pnl": 586.7,
+      "fg": 44.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-02-09",
+      "pnl": 150551.83,
+      "fg": 46.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-10",
+      "pnl": 63908.49,
+      "fg": 43.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-02-11",
+      "pnl": -6093.78,
+      "fg": 47.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-12",
+      "pnl": 19848.64,
+      "fg": 46.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-13",
+      "pnl": 27829.53,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-14",
+      "pnl": 213860.68,
+      "fg": 48.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-15",
+      "pnl": 45042.93,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-16",
+      "pnl": 2369.48,
+      "fg": 54.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-17",
+      "pnl": 1818.57,
+      "fg": 51.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-18",
+      "pnl": 91204.67,
+      "fg": 47.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-19",
+      "pnl": 14985.79,
+      "fg": 44.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-02-20",
+      "pnl": 46008.79,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-21",
+      "pnl": 119693.49,
+      "fg": 55.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-02-22",
+      "pnl": 25278.7,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-23",
+      "pnl": 10656.93,
+      "fg": 50.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-24",
+      "pnl": 38470.18,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-02-25",
+      "pnl": 204762.18,
+      "fg": 25.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-02-26",
+      "pnl": 63229.06,
+      "fg": 21.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-02-27",
+      "pnl": -36525.17,
+      "fg": 10.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-02-28",
+      "pnl": 225628.11,
+      "fg": 16.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-03-01",
+      "pnl": 10596.11,
+      "fg": 20.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-03-02",
+      "pnl": 66914.32,
+      "fg": 26.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-03",
+      "pnl": 616413.03,
+      "fg": 33.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-04",
+      "pnl": 182075.57,
+      "fg": 15.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-03-05",
+      "pnl": 269328.37,
+      "fg": 20.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-03-06",
+      "pnl": 16101.13,
+      "fg": 25.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-07",
+      "pnl": 150236.06,
+      "fg": 34.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-08",
+      "pnl": 24700.77,
+      "fg": 28.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-09",
+      "pnl": 19773.46,
+      "fg": 27.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-10",
+      "pnl": -10010.03,
+      "fg": 20.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-03-11",
+      "pnl": -76880.73,
+      "fg": 24.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-03-12",
+      "pnl": 288105.98,
+      "fg": 34.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-13",
+      "pnl": 14114.87,
+      "fg": 45.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-03-14",
+      "pnl": 68646.16,
+      "fg": 27.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-15",
+      "pnl": 78694.62,
+      "fg": 46.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-03-16",
+      "pnl": -7910.94,
+      "fg": 30.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-17",
+      "pnl": 26163.91,
+      "fg": 32.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-18",
+      "pnl": 72322.79,
+      "fg": 34.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-19",
+      "pnl": 29374.68,
+      "fg": 32.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-20",
+      "pnl": 10246.86,
+      "fg": 49.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-03-21",
+      "pnl": 6951.27,
+      "fg": 31.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-22",
+      "pnl": 12498.54,
+      "fg": 32.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-23",
+      "pnl": 14047.42,
+      "fg": 30.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-24",
+      "pnl": 107878.96,
+      "fg": 45.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-03-25",
+      "pnl": 32030.91,
+      "fg": 46.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-03-26",
+      "pnl": 15802.17,
+      "fg": 47.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-03-27",
+      "pnl": 58825.36,
+      "fg": 40.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-28",
+      "pnl": 21337.18,
+      "fg": 44.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-29",
+      "pnl": 12098.87,
+      "fg": 26.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-30",
+      "pnl": 15795.12,
+      "fg": 32.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-03-31",
+      "pnl": 6978.18,
+      "fg": 34.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-01",
+      "pnl": -2202.66,
+      "fg": 34.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-02",
+      "pnl": 202212.74,
+      "fg": 44.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-03",
+      "pnl": -2365.96,
+      "fg": 25.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-04",
+      "pnl": -25515.68,
+      "fg": 28.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-05",
+      "pnl": 35907.34,
+      "fg": 30.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-06",
+      "pnl": 47053.45,
+      "fg": 34.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-07",
+      "pnl": 34527.37,
+      "fg": 23.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-04-08",
+      "pnl": 34899.39,
+      "fg": 24.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-04-09",
+      "pnl": 43120.44,
+      "fg": 18.0,
+      "sentiment": "Extreme Fear"
+    },
+    {
+      "date": "2025-04-10",
+      "pnl": 158261.82,
+      "fg": 39.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-11",
+      "pnl": 126406.48,
+      "fg": 25.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-12",
+      "pnl": 410419.69,
+      "fg": 43.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-13",
+      "pnl": 48696.02,
+      "fg": 45.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-04-14",
+      "pnl": 45680.44,
+      "fg": 31.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-15",
+      "pnl": 72357.71,
+      "fg": 38.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-16",
+      "pnl": 58631.73,
+      "fg": 29.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-17",
+      "pnl": 5427.92,
+      "fg": 30.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-18",
+      "pnl": 4880.4,
+      "fg": 33.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-19",
+      "pnl": 71950.58,
+      "fg": 32.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-20",
+      "pnl": 25060.34,
+      "fg": 37.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-21",
+      "pnl": 34369.27,
+      "fg": 39.0,
+      "sentiment": "Fear"
+    },
+    {
+      "date": "2025-04-22",
+      "pnl": 58652.76,
+      "fg": 47.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-04-23",
+      "pnl": -419020.23,
+      "fg": 72.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-04-24",
+      "pnl": 50704.4,
+      "fg": 63.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-04-25",
+      "pnl": 20218.86,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-04-26",
+      "pnl": -4125.75,
+      "fg": 65.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-04-27",
+      "pnl": 2702.07,
+      "fg": 61.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-04-28",
+      "pnl": 36906.81,
+      "fg": 54.0,
+      "sentiment": "Neutral"
+    },
+    {
+      "date": "2025-04-29",
+      "pnl": 125749.61,
+      "fg": 60.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-04-30",
+      "pnl": 14003.8,
+      "fg": 56.0,
+      "sentiment": "Greed"
+    },
+    {
+      "date": "2025-05-01",
+      "pnl": 54536.83,
+      "fg": 53.0,
+      "sentiment": "Neutral"
+    }
+  ],
+  "fg_distribution": {
+    "Extreme Fear": 508,
+    "Extreme Greed": 326,
+    "Fear": 781,
+    "Greed": 633,
+    "Neutral": 396
+  },
+  "monthly_pnl": {
+    "2023-05": {
+      "Greed": 0.0
+    },
+    "2023-12": {
+      "Extreme Greed": 0.0,
+      "Greed": 2016.01
+    },
+    "2024-01": {
+      "Extreme Greed": -990.44,
+      "Greed": -3057.26,
+      "Neutral": -9038.24
+    },
+    "2024-02": {
+      "Extreme Greed": 23290.46,
+      "Greed": 26572.21
+    },
+    "2024-03": {
+      "Extreme Greed": 117262.58,
+      "Greed": 7720.15
+    },
+    "2024-04": {
+      "Extreme Greed": 20557.51,
+      "Greed": -12518.92
+    },
+    "2024-05": {
+      "Extreme Greed": 8495.55,
+      "Greed": 15277.87,
+      "Neutral": 5557.62
+    },
+    "2024-06": {
+      "Extreme Greed": 9232.7,
+      "Fear": 11019.68,
+      "Greed": 77777.0,
+      "Neutral": 4954.61
+    },
+    "2024-07": {
+      "Fear": 18999.77,
+      "Greed": 110958.15,
+      "Neutral": 8604.48
+    },
+    "2024-08": {
+      "Extreme Fear": 226.61,
+      "Fear": -126306.59,
+      "Greed": 1013.61,
+      "Neutral": 18249.15
+    },
+    "2024-09": {
+      "Extreme Fear": -1104.86,
+      "Fear": 983.49,
+      "Greed": 2710.63,
+      "Neutral": 45646.49
+    },
+    "2024-10": {
+      "Extreme Greed": 1223.19,
+      "Fear": 8985.7,
+      "Greed": 19437.6,
+      "Neutral": 14145.43
+    },
+    "2024-11": {
+      "Extreme Greed": 127134.31,
+      "Greed": 6295.72
+    },
+    "2024-12": {
+      "Extreme Greed": 2014363.09,
+      "Greed": 990708.01
+    },
+    "2025-01": {
+      "Extreme Greed": 394602.36,
+      "Greed": 383260.4,
+      "Neutral": -10116.88
+    },
+    "2025-02": {
+      "Extreme Fear": 252332.0,
+      "Fear": 655564.5,
+      "Greed": 731725.35,
+      "Neutral": 757357.18
+    },
+    "2025-03": {
+      "Extreme Fear": 375109.29,
+      "Fear": 1519373.29,
+      "Neutral": 258768.39
+    },
+    "2025-04": {
+      "Extreme Fear": 112547.21,
+      "Fear": 1268535.61,
+      "Greed": -209767.25,
+      "Neutral": 144255.6
+    },
+    "2025-05": {
+      "Neutral": 54536.83
+    }
+  },
+  "bucket_pnl": {
+    "Extreme Fear\n(0-25)": {
+      "total_pnl": 1088910.39,
+      "avg_pnl": 34.7185,
+      "trade_count": 31364,
+      "win_rate": 34.57
+    },
+    "Fear\n(26-45)": {
+      "total_pnl": 3177166.47,
+      "avg_pnl": 57.4242,
+      "trade_count": 55328,
+      "win_rate": 44.56
+    },
+    "Neutral\n(46-55)": {
+      "total_pnl": 1246044.04,
+      "avg_pnl": 34.3244,
+      "trade_count": 36302,
+      "win_rate": 39.86
+    },
+    "Greed\n(56-75)": {
+      "total_pnl": 2319114.58,
+      "avg_pnl": 41.559,
+      "trade_count": 55803,
+      "win_rate": 40.33
+    },
+    "Extreme Greed\n(76-100)": {
+      "total_pnl": 2423251.48,
+      "avg_pnl": 74.7433,
+      "trade_count": 32421,
+      "win_rate": 44.37
+    }
+  }
+}

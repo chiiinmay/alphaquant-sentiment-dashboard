@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Trading Sentiment Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <h1>AlphaQuant <span class="highlight">Insights</span></h1>
+            </div>
+            <div class="header-info">
+                <p>Trader Performance vs Market Sentiment</p>
+            </div>
+        </header>
+
+        <main>
+            <!-- KPI Cards -->
+            <section class="kpi-grid" id="kpi-container">
+                <div class="kpi-card glass">
+                    <h3>Total PnL</h3>
+                    <div class="value positive" id="kpi-total-pnl">Loading...</div>
+                </div>
+                <div class="kpi-card glass">
+                    <h3>Total Trades</h3>
+                    <div class="value" id="kpi-total-trades">Loading...</div>
+                </div>
+                <div class="kpi-card glass">
+                    <h3>Total Volume</h3>
+                    <div class="value" id="kpi-total-volume">Loading...</div>
+                </div>
+                <div class="kpi-card glass">
+                    <h3>Win Rate</h3>
+                    <div class="value" id="kpi-win-rate">Loading...</div>
+                </div>
+            </section>
+
+            <!-- Main Charts Row -->
+            <section class="charts-row">
+                <div class="chart-container glass double-span">
+                    <div class="chart-header">
+                        <h2>PnL by Market Sentiment</h2>
+                        <p>How trader profitability shifts with fear and greed</p>
+                    </div>
+                    <div class="canvas-wrapper">
+                        <canvas id="sentimentPnlChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-container glass">
+                    <div class="chart-header">
+                        <h2>Win Rate vs Sentiment</h2>
+                        <p>Trade success probability across regimes</p>
+                    </div>
+                    <div class="canvas-wrapper">
+                        <canvas id="winRateChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Secondary Charts Row -->
+            <section class="charts-row">
+                <div class="chart-container glass">
+                    <div class="chart-header">
+                        <h2>Sentiment Regimes Distribution</h2>
+                        <p>Historical frequency of each state</p>
+                    </div>
+                    <div class="canvas-wrapper">
+                        <canvas id="fgDistributionChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-container glass double-span">
+                    <div class="chart-header">
+                        <h2>Top Performing Traders</h2>
+                        <p>Alpha generators across all market conditions</p>
+                    </div>
+                    <div class="table-container">
+                        <table id="top-traders-table">
+                            <thead>
+                                <tr>
+                                    <th>Account</th>
+                                    <th>Total PnL</th>
+                                    <th>Win Rate</th>
+                                    <th>Trades</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Insights -->
+            <section class="insights-panel glass">
+                <h2>Key Strategic Insights</h2>
+                <ul class="insights-list" id="dynamic-insights">
+                    <li>Loading insights from data...</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
