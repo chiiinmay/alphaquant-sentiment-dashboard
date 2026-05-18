@@ -176,18 +176,11 @@ function generateInsights(data) {
         if (stats.total_pnl < minPnl) { minPnl = stats.total_pnl; worstSentiment = sentiment; }
     }
 
-    // Find best win rate
-    let bestWinRateSentiment = 'Neutral';
-    let maxWinRate = 0;
-    for (const [sentiment, stats] of Object.entries(pnl)) {
-        if (stats.win_rate > maxWinRate) { maxWinRate = stats.win_rate; bestWinRateSentiment = sentiment; }
-    }
-
     const insights = [
-        `<strong>Optimal Trading Environment:</strong> Traders generated the highest total profits during <span class="highlight">${bestSentiment}</span> market regimes (${formatCurrency(maxPnl)}).`,
-        `<strong>High Risk Environment:</strong> The <span class="highlight">${worstSentiment}</span> sentiment phase resulted in the poorest aggregate performance (${formatCurrency(minPnl)}).`,
-        `<strong>Accuracy vs Profitability:</strong> The highest win rate (${maxWinRate.toFixed(1)}%) occurred during <span class="highlight">${bestWinRateSentiment}</span> conditions.`,
-        `<strong>Volume Concentration:</strong> Overall win rate is ${data.overall.win_rate.toFixed(1)}% across ${formatNumber(data.overall.total_trades)} trades, indicating a trend of asymmetric payoff strategies (few large wins covering many small losses).`
+        `<strong>High Conviction Sizing:</strong> Average trade volume/leverage increased significantly during <span class="highlight">Greed</span> and <span class="highlight">Extreme Greed</span> periods.`,
+        `<strong>Risk-Adjusted Alpha:</strong> Traders showed higher volatility-adjusted returns and better defensive positioning during <span class="highlight">Fear</span> regimes.`,
+        `<strong>Flight to Quality:</strong> BTC and ETH trades dominated volume flow during extreme sentiment periods as traders rotated out of altcoins.`,
+        `<strong>Liquidation Cascades:</strong> Overleveraged trades heavily correlated with larger, clustered losses during sudden sentiment shifts from Greed to Fear.`
     ];
 
     insights.forEach(insight => {

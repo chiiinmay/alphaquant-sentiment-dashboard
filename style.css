@@ -226,6 +226,17 @@ tbody tr:hover {
     font-weight: bold;
 }
 
+/* Methodology */
+.methodology-content p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+}
+
+.methodology-content p strong {
+    color: var(--text-primary);
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .charts-row {

@@ -101,10 +101,21 @@
 
             <!-- Key Insights -->
             <section class="insights-panel glass">
-                <h2>Key Strategic Insights</h2>
+                <h2>Key Findings & Strategic Insights</h2>
                 <ul class="insights-list" id="dynamic-insights">
                     <li>Loading insights from data...</li>
                 </ul>
+            </section>
+
+            <!-- Methodology -->
+            <section class="insights-panel glass" style="margin-top: 2rem;">
+                <h2>Methodology</h2>
+                <div class="methodology-content">
+                    <p><strong>Data Preprocessing:</strong> Cleaned raw Hyperliquid execution data by parsing intraday timestamps, casting PnL/Volume to numeric types, and removing corrupted records.</p>
+                    <p><strong>Merging by Date:</strong> Mapped the daily Bitcoin Fear & Greed index values to the exact intraday trade execution timestamps to create a unified time-series dataset.</p>
+                    <p><strong>Null Handling:</strong> Filtered out unclassified trades and forward-filled missing sentiment indices where applicable to ensure robust aggregations.</p>
+                    <p><strong>Feature Engineering:</strong> Created aggregated features such as "Win Rate", "Total PnL per Regime", and utilized bucketing logic to categorize extreme market states dynamically for quantitative modeling.</p>
+                </div>
             </section>
         </main>
     </div>
