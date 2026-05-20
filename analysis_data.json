@@ -3171,5 +3171,57 @@
       "trade_count": 32421,
       "win_rate": 44.37
     }
+  },
+  "side_performance": {
+    "Extreme Fear_BUY": {
+      "total_pnl": 373043.44,
+      "win_rate": 20.16,
+      "count": 10935
+    },
+    "Extreme Fear_SELL": {
+      "total_pnl": 366066.81,
+      "win_rate": 54.72,
+      "count": 10465
+    },
+    "Extreme Greed_BUY": {
+      "total_pnl": 188350.75,
+      "win_rate": 31.14,
+      "count": 17940
+    },
+    "Extreme Greed_SELL": {
+      "total_pnl": 2526820.56,
+      "win_rate": 58.98,
+      "count": 22052
+    },
+    "Fear_BUY": {
+      "total_pnl": 1935073.44,
+      "win_rate": 26.3,
+      "count": 30270
+    },
+    "Fear_SELL": {
+      "total_pnl": 1422082.0,
+      "win_rate": 57.21,
+      "count": 31567
+    },
+    "Greed_BUY": {
+      "total_pnl": 614456.58,
+      "win_rate": 31.81,
+      "count": 24576
+    },
+    "Greed_SELL": {
+      "total_pnl": 1535672.69,
+      "win_rate": 44.86,
+      "count": 25727
+    },
+    "Neutral_BUY": {
+      "total_pnl": 554415.09,
+      "win_rate": 24.0,
+      "count": 18969
+    },
+    "Neutral_SELL": {
+      "total_pnl": 738505.58,
+      "win_rate": 55.61,
+      "count": 18717
+    }
   }
 }

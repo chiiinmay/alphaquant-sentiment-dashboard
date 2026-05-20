@@ -64,6 +64,19 @@
                 </div>
             </section>
 
+            <!-- Advanced Insights Row -->
+            <section class="charts-row">
+                <div class="chart-container glass double-span">
+                    <div class="chart-header">
+                        <h2>Long vs Short Performance by Sentiment</h2>
+                        <p>How directional bias (Buy vs Sell) performs across different market regimes</p>
+                    </div>
+                    <div class="canvas-wrapper">
+                        <canvas id="longShortChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
             <!-- Secondary Charts Row -->
             <section class="charts-row">
                 <div class="chart-container glass">
@@ -109,12 +122,13 @@
 
             <!-- Methodology -->
             <section class="insights-panel glass" style="margin-top: 2rem;">
-                <h2>Methodology</h2>
+                <h2>Methodology: Merging Sentiment with Trades</h2>
                 <div class="methodology-content">
-                    <p><strong>Data Preprocessing:</strong> Cleaned raw Hyperliquid execution data by parsing intraday timestamps, casting PnL/Volume to numeric types, and removing corrupted records.</p>
-                    <p><strong>Merging by Date:</strong> Mapped the daily Bitcoin Fear & Greed index values to the exact intraday trade execution timestamps to create a unified time-series dataset.</p>
-                    <p><strong>Null Handling:</strong> Filtered out unclassified trades and forward-filled missing sentiment indices where applicable to ensure robust aggregations.</p>
-                    <p><strong>Feature Engineering:</strong> Created aggregated features such as "Win Rate", "Total PnL per Regime", and utilized bucketing logic to categorize extreme market states dynamically for quantitative modeling.</p>
+                    <p><strong>1. Data Preprocessing:</strong> Parsed intraday trade execution timestamps from the Hyperliquid raw data, standardizing formats and extracting the <code>trade_date</code>. Casted PnL, Volume, and Fees to numeric types while removing corrupted or incomplete records.</p>
+                    <p><strong>2. Date Alignment Logic:</strong> Mapped the daily Bitcoin Fear & Greed (F&G) index values to the precise intraday trade timestamps using a left-join on <code>trade_date</code>. This creates a unified time-series dataset that aligns every single trade with the broader market regime of that day.</p>
+                    <p><strong>3. Handling Missing Values:</strong> Handled unclassified trades by filtering out non-matched dates. Applied forward-filling (ffill) logic for missing sentiment indices over weekends or API downtime to ensure robust, continuous aggregations without breaking the time-series model.</p>
+                    <p><strong>4. Sentiment Classification Mapping:</strong> Categorized quantitative F&G values into 5 distinct buckets for categorical analysis: <em>Extreme Fear (0-25)</em>, <em>Fear (26-45)</em>, <em>Neutral (46-55)</em>, <em>Greed (56-75)</em>, and <em>Extreme Greed (76-100)</em>. This bucketing logic converts a continuous variable into actionable trading regimes.</p>
+                    <p><strong>5. Aggregation Logic:</strong> Grouped the merged dataset by these classification buckets to compute aggregate metrics such as Total PnL, Win Rate (profitable trades / total trades), and Volume. Segmented directional performance (Long/Buy vs Short/Sell) across regimes to identify regime-specific alpha.</p>
                 </div>
             </section>
         </main>

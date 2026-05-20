@@ -125,9 +125,10 @@ print("\n=== Top Traders ===")
 print(trader_perf.head(10))
 
 # ── Analysis 9: Direction analysis ───────────────────────────────────────────
-direction_sentiment = merged.groupby(['classification','Direction']).agg(
+direction_sentiment = merged.groupby(['classification','Side']).agg(
     total_pnl=('Closed PnL','sum'),
-    count=('Closed PnL','count')
+    count=('Closed PnL','count'),
+    win_rate=('Closed PnL', lambda x: (x>0).mean()*100)
 ).reset_index()
 
 # ── Build JSON for dashboard ──────────────────────────────────────────────────
@@ -222,6 +223,14 @@ data = {
             "win_rate": round(float(row['win_rate']), 2)
         }
         for _, row in bucket_pnl.iterrows()
+    },
+    "side_performance": {
+        str(row['classification']) + "_" + str(row['Side']): {
+            "total_pnl": round(float(row['total_pnl']), 2),
+            "win_rate": round(float(row['win_rate']), 2),
+            "count": int(row['count'])
+        }
+        for _, row in direction_sentiment.iterrows()
     }
 }
 

@@ -139,7 +139,71 @@ function renderCharts(data) {
             },
             cutout: '70%'
         }
+        }
     });
+
+    // 4. Long vs Short Performance Chart (Grouped Bar Chart)
+    const longPnlData = sentimentLabels.map(s => {
+        const key = s + "_BUY";
+        return data.side_performance && data.side_performance[key] ? data.side_performance[key].total_pnl : 0;
+    });
+    
+    const shortPnlData = sentimentLabels.map(s => {
+        const key = s + "_SELL";
+        return data.side_performance && data.side_performance[key] ? data.side_performance[key].total_pnl : 0;
+    });
+
+    const ctxLongShort = document.getElementById('longShortChart');
+    if (ctxLongShort) {
+        new Chart(ctxLongShort.getContext('2d'), {
+            type: 'bar',
+            data: {
+                labels: sentimentLabels,
+                datasets: [
+                    {
+                        label: 'Long (Buy) PnL',
+                        data: longPnlData,
+                        backgroundColor: 'rgba(56, 189, 248, 0.7)',
+                        borderColor: '#38bdf8',
+                        borderWidth: 1,
+                        borderRadius: 4
+                    },
+                    {
+                        label: 'Short (Sell) PnL',
+                        data: shortPnlData,
+                        backgroundColor: 'rgba(244, 114, 182, 0.7)',
+                        borderColor: '#f472b6',
+                        borderWidth: 1,
+                        borderRadius: 4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                        labels: { color: '#a0a0b0' }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) { return context.dataset.label + ': ' + formatCurrency(context.raw); }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        ticks: { callback: function(value) { return formatCurrency(value); } },
+                        grid: { color: 'rgba(255, 255, 255, 0.05)' }
+                    },
+                    x: {
+                        grid: { display: false }
+                    }
+                }
+            }
+        });
+    }
 }
 
 function updateTable(topTraders) {
