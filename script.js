@@ -139,7 +139,6 @@ function renderCharts(data) {
             },
             cutout: '70%'
         }
-        }
     });
 
     // 4. Long vs Short Performance Chart (Grouped Bar Chart)
